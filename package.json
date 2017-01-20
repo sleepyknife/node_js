@@ -2,6 +2,22 @@
   "name": "node-example",
   "version": "0.0.1",
   "dependencies": {
-    "express": "2.5.9"
-  }
+    "express": "^2.5.9",
+    "logfmt": "^1.2.0"
+  },
+  "description": "initial commit",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleepyknife/node_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleepyknife/node_js/issues"
+  },
+  "homepage": "https://github.com/sleepyknife/node_js#readme"
 }
