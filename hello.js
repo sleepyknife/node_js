@@ -1,7 +1,7 @@
 //heroku-deploy-demo.js
 var express = require("express");
 var logfmt = require("logfmt");
-var app = express();
+var app = express.createServer();
 
 app.use(logfmt.requestLogger());
 
